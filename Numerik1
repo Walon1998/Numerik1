@@ -1,0 +1,13 @@
+Exercise 1.1
+
+a)
+If 1 is in the first position of v the naive sum will return a wrong answer, because the first number stored in the
+float is 1 and all that come after are to small compared to 1 and the precision that the number itself will change
+again.
+If 1 is in the last position, it will return the "right" answer., because we don't have the problem above.
+
+c) Everything takes 10 times longer. It always returns
+1.5 . I think it is because after the values exceeds 0.5 adding such small number will just make no impact with a
+float data type, there will just be lots of rounding errors.
+
+
